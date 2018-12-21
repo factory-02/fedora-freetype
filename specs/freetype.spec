@@ -14,6 +14,13 @@ Source1:                        http://download.savannah.gnu.org/releases/freety
 Source2:                        http://download.savannah.gnu.org/releases/freetype/ft2demos-%{version}.tar.bz2
 Source3:                        ftconfig.h
 
+# METASTORE - [
+# Signature
+Source900:                      http://download.savannah.gnu.org/releases/freetype/freetype-%{version}.tar.bz2.sig
+Source901:                      http://download.savannah.gnu.org/releases/freetype/freetype-doc-%{version}.tar.bz2.sig
+Source902:                      http://download.savannah.gnu.org/releases/freetype/ft2demos-%{version}.tar.bz2.sig
+# ] - METASTORE
+
 # Enable subpixel rendering (ClearType)
 Patch0:                         freetype-2.3.0-enable-spr.patch
 # Enable otvalid and gxvalid modules
