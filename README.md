@@ -9,7 +9,7 @@
 [![Contributing](https://cdn-storage.github.io/images/badges/info.contributing.svg)](CONTRIBUTING.md)
 [![Authors](https://cdn-storage.github.io/images/badges/info.authors.svg)](AUTHORS)
 [![Issues](https://cdn-storage.github.io/images/badges/info.issues.svg)](https://github.com/factory-02/fedora-freetype/issues)
-[![Repository](https://cdn-storage.github.io/images/badges/info.repository.svg)](https://copr.fedorainfracloud.org/coprs/metastore/fedora-freetype/)
+[![Repository](https://cdn-storage.github.io/images/badges/repository.rpm.svg)](https://copr.fedorainfracloud.org/coprs/metastore/fedora-freetype/)
 [![License](https://cdn-storage.github.io/images/badges/license.gpl-3.0.svg)](LICENSE)
 [![Liberapay](https://cdn-storage.github.io/images/badges/donate.liberapay.svg)](https://liberapay.com/metadata/donate)
 [![Patreon](https://cdn-storage.github.io/images/badges/donate.patreon.svg)](https://patreon.com/metadata)
