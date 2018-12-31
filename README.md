@@ -21,3 +21,39 @@ SPEC-файл для создания RPM-пакета **freetype**.
 
 1. Подключить репозиторий **METASTORE**: `dnf copr enable metastore/fedora-freetype`.
 2. Установить пакет: `dnf install freetype`.
+
+## Настройка
+
+В файл `/etc/fonts/local.conf` добавить:
+
+```
+<?xml version='1.0'?>
+<!DOCTYPE fontconfig SYSTEM 'fonts.dtd'>
+<fontconfig>
+    <match target="font">
+        <edit mode="assign" name="rgba">
+        <const>rgb</const>
+        </edit>
+    </match>
+    <match target="font">
+        <edit mode="assign" name="hinting">
+        <bool>true</bool>
+        </edit>
+    </match>
+    <match target="font">
+        <edit mode="assign" name="hintstyle">
+        <const>hintfull</const>
+        </edit>
+    </match>
+    <match target="font">
+        <edit mode="assign" name="antialias">
+        <bool>true</bool>
+        </edit>
+    </match>
+    <match target="font">
+        <edit mode="assign" name="lcdfilter">
+        <const>lcddefault</const>
+        </edit>
+    </match>
+</fontconfig>
+```
