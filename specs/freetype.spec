@@ -4,7 +4,6 @@ Name:                           freetype
 Version:                        2.9.1
 Release:                        7%{?dist}
 Summary:                        A free and portable font rendering engine
-
 License:                        (FTL or GPLv2+) and BSD and MIT and Public Domain and zlib with acknowledgement
 Group:                          System Environment/Libraries
 URL:                            http://www.freetype.org
